@@ -1,0 +1,104 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    background-color: orange;
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li {
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    height: 100%;
+    padding-inline: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: rgb(255, 198, 91);
+}
+
+/* end header */
+
+/* form */
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+form * {
+    margin-top: 10px;
+}
+
+button {
+    background-color: orange;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 166, 0, 0.825);
+}
+
+label {
+    text-transform: capitalize;
+}
+
+h1 {
+    color: orange;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+
+input[type=text],
+input[type=number],
+select,
+button {
+    padding-inline: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+
+/* additional for error handling */
+
+.error {
+    color: red;
+    margin-top: 0px;
+}
+
+.border_red {
+    border: 1px solid red;
+}

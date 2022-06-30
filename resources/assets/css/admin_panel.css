@@ -1,0 +1,78 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* ul {
+    background-color: orange;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li {
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    height: 100%;
+    padding-inline: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    font-size: 1.3em;
+}
+
+nav a:hover {
+    background-color: rgb(255, 198, 91);
+} */
+
+/* end header */
+
+
+h1{
+    font-family: sans-serif;
+    text-transform: capitalize;
+    padding: 10px;
+    margin-top: 20px;
+}
+/* section */
+
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+
+.link {
+    background-color: lightblue;
+    margin: 10px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 2em;
+    padding: 20px;
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 1px 1px 8px -3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.link{
+    /* text-decoration: none; */
+    color: black;
+    /* color: orange; */
+}
+
+.link:hover {
+    /* background-color: rgb(95, 144, 160); */
+}

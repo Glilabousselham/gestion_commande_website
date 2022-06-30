@@ -1,0 +1,90 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+/* nav */
+
+/* nav */
+
+nav {
+    /* height: 100px; */
+    padding: 5px 0px;
+    background-color: orange;
+    text-align: right;
+}
+
+nav a {
+    color: white;
+    font-size: 2em;
+    padding: 4px 10px;
+}
+
+
+/* fiorm */
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+
+    margin: auto;
+
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-top: 50px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px -4px black;
+
+
+}
+
+form * {
+    margin-top: 10px;
+    color: black;
+}
+
+input,
+button {
+    font-size: 1.4em;
+    border: 1px solid gray;
+
+    padding: 4px;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+h1,
+label {
+    text-transform: capitalize;
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+}
+
+
+
+/* style of erros */
+
+
+.error {
+    color: red;
+    margin-top: 0px;
+}
+
+.border_red {
+    border: 1px solid red;
+}

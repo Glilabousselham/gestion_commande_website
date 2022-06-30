@@ -1,0 +1,59 @@
+
+
+/* admin nav */
+.admin-nav{
+    min-height: 40px;
+    background-color: orange;
+}
+
+.admin-nav a{
+    color: white;
+    padding: 4px 10px;
+    font-size: 1.3em;
+    height: 100%;
+}
+.admin-nav a:hover{
+    color: black;
+}
+
+/* error and success class */
+.error {
+    color: red;
+    font-size: 1.2em;
+    background-color: rgba(255, 0, 0, 0.16);
+    width: 90%;
+    padding-block: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.success {
+    color: green;
+    font-size: 1.2em;
+    background-color: rgba(0, 128, 0, 0.169);
+    width: 90%;
+    padding-block: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/*  style of erros */
+
+
+.text_error {
+    color: red;
+    margin-top: 0px;
+}
+
+.border_red {
+    border: 1px solid red;
+}
+
+/* ---------------------------------------- */
+/*------------------ body ------------------*/
+/* ---------------------------------------- */
+/* body {
+    background-image: url(../icons//background_1.webp);
+} */

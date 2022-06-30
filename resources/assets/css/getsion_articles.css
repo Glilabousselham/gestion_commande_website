@@ -1,0 +1,131 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav {
+    background-color: white;
+}
+
+nav ul {
+    background-color: orange;
+
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+nav li {
+    height: 40px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    height: 100%;
+    padding-inline: 10px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background-color: rgb(255, 198, 91);
+}
+
+/* end header */
+
+table {
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+tr:first-of-type {
+    background-color: orange;
+}
+
+img {
+    width: 100%;
+}
+
+td {
+    text-align: center;
+}
+
+th{
+    padding-block:10px ;
+    font-size: 1.3em;
+}
+
+.td_img {
+    width: 10%;
+}
+
+.td_lib {
+    width: 30%;
+}
+
+.td_prix {
+    width: 10%;
+}
+
+.td_qte {
+    width: 10%;
+}
+
+.td_actions {
+    width: 15%;
+}
+    
+.supprimer {
+    background-color: red;
+}
+
+.modifier {
+    background-color: orange;
+    /* color: white; */
+}
+
+.supprimer,
+.modifier {
+    color: white;
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+
+}
+
+
+.supprimer:hover {
+    background-color: rgba(255, 0, 0, 0.703);
+}
+
+.modifier:hover {
+    background-color: rgba(255, 166, 0, 0.696);
+}
+.supprimer:active,
+.modifier:active {
+    background-color: gray;
+}
+
+button a{
+    color: white;
+    
+}
+
+/* error */
+

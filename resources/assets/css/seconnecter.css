@@ -1,0 +1,77 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav {
+    background-color: orange;
+    height: 100px;
+}
+
+form {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    margin-top: -50px;
+    border: 2px solid;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+
+form * {
+    margin-top: 10px;
+}
+
+button {
+    background-color: orange;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgba(255, 166, 0, 0.825);
+}
+
+label {
+    text-transform: capitalize;
+}
+
+h1 {
+    color: orange;
+    text-shadow: 1px 1px 3px black;
+    text-align: center;
+    user-select: none;
+    text-transform: capitalize;
+}
+
+
+input,
+select,
+button {
+    padding-inline: 5px;
+    outline: none;
+    border: 1px solid gray;
+    font-size: 1.5em;
+    border-radius: 5px;
+}
+
+
+.error {
+    color: red;
+    margin-top: 0px;
+}
+
+.border_red {
+    border: 1px solid red;
+}
+
+
+.link{
+    width: fit-content;
+    color: blue;
+}
